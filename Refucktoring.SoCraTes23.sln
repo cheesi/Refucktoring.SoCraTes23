@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refucktoring.SoCraTes23", "src\Refucktoring.SoCraTes23.csproj", "{EEA4635D-2CEA-450A-831B-C56BAF4470F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refucktoring.SoCraTes23.Tests", "tests\Refucktoring.SoCraTes23.Tests\Refucktoring.SoCraTes23.Tests.csproj", "{00D5926B-6F31-437D-8E4A-D73531E34F41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEA4635D-2CEA-450A-831B-C56BAF4470F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA4635D-2CEA-450A-831B-C56BAF4470F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA4635D-2CEA-450A-831B-C56BAF4470F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA4635D-2CEA-450A-831B-C56BAF4470F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D5926B-6F31-437D-8E4A-D73531E34F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D5926B-6F31-437D-8E4A-D73531E34F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D5926B-6F31-437D-8E4A-D73531E34F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D5926B-6F31-437D-8E4A-D73531E34F41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
