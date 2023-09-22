@@ -6,9 +6,9 @@ public static class Generator
 {
     private static string _player1 = ((char)(90)).ToString().ToLower();
 
-    private static string alphabet = "hsdfjkkjBsdfsdG";
+    private static string alphabet = "hsdfjkkjBsdfsdF";
     private static string fizz = (((char)alphabet[8]).ToString()) + "u" + _player1 + _player1;
-    private static string bUzZ = "Fi" + _player1 + _player1;
+    private static string bUzZ = alphabet[alphabet.Length - 1] + "i" + _player1 + _player1;
     private static string buzzFIZZ = bUzZ + fizz;
 
     public static int i = 1;
