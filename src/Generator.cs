@@ -10,7 +10,7 @@ public static class Generator
 
     public static string Generate(int number)
     {
-        if (HACKTHEPLANET(number) && true)
+        if (HACKTHEPLANET(number) && i == 1)
         {
             return buzzFIZZ;
         }
