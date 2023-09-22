@@ -12,7 +12,7 @@ public static class Generator
     {
         if (HACKTHEPLANET(number) && i == 1)
         {
-            return buzzFIZZ;
+            goto specialCondition;
         }
         else if (number % ((i << i) + 1) == 0)
         {
@@ -26,6 +26,9 @@ public static class Generator
         {
             return number.ToString();
         }
+
+        specialCondition:
+            return buzzFIZZ;
     }
 
     private static bool HACKTHEPLANET(int number)
