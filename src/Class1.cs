@@ -6,6 +6,6 @@ public class Class1
 {
     public bool HACKTHEPLANET(int number)
     {
-        return number % ((Generator.i << 1) + Generator.i) == 0 && number % 5 == 0;
+        return number % ((Generator.i << 1) + Generator.i) == 0 && number % (((int)Math.PI)+2) == 0;
     }
 }
