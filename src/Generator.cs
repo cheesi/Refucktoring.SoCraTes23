@@ -2,9 +2,9 @@
 
 public static class Generator
 {
-    private const string _player1 = "z";
+    private static string _player1 = ((char)(90)).ToString().ToLower();
 
-    private const string fizz = "Bu" + _player1 + _player1;
+    private static string fizz = "Bu" + _player1 + _player1;
     private static string bUzZ = "Fi" + _player1 + _player1;
     private static string buzzFIZZ = bUzZ + fizz;
 
