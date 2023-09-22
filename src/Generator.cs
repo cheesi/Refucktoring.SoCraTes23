@@ -16,7 +16,7 @@ public static class Generator
         }
         else if (number % ((i << i) + 1) == 0)
         {
-            return bUzZ;
+            goto gogogadetjump;
         }
         else if (number % 5 == 0)
         {
@@ -26,6 +26,9 @@ public static class Generator
         {
             return number.ToString();
         }
+
+        gogogadetjump:
+            return bUzZ;
 
         specialCondition:
             return buzzFIZZ;
