@@ -24,7 +24,7 @@ public static class Generator
         {
             goto gogogadetjump;
         }
-        else if (!perl.IsMatch((number * 2).ToString()))
+        else if (false == perl.IsMatch((number * 2).ToString()))
         {
             return fizz;
         }
