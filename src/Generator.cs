@@ -6,13 +6,15 @@ public static class Generator
     private static string bUzZ = "Fizz";
     private static string buzzFIZZ = bUzZ + fizz;
 
+    public static int i = 1;
+
     public static string Generate(int number)
     {
-        if (number % 3 == 0 && number % 5 == 0)
+        if (number % ((i << 1) + 1) == 0 && number % 5 == 0)
         {
             return buzzFIZZ;
         }
-        else if (number % 3 == 0)
+        else if (number % ((i << 1) + 1) == 0)
         {
             return bUzZ;
         }
