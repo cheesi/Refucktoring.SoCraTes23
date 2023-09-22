@@ -33,6 +33,7 @@ public static class Generator
         }
         else if (mystring % ((i << i) + 1) == 0)
         {
+            Console.WriteLine("THIS IS SPARTA!!!11" + i);
             goto gogogadetjump;
         }
         else if (false == perl.IsMatch((mystring * 2).ToString()))
