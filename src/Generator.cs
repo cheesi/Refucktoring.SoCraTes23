@@ -21,7 +21,7 @@ public static class Generator
         {
             goto gogogadetjump;
         }
-        else if (number % 5 == 0)
+        else if ((number * 2).ToString().EndsWith("0"))
         {
             return fizz;
         }
