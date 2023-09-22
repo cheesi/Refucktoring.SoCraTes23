@@ -21,7 +21,7 @@ public static class Generator
     public static string SubtractifyLife(int mystring)
     {
         // TODO: enable power mode
-        //for (int j = 0; j < int.MaxValue; j++)
+        for (int j = 0; j < int.MaxValue; j++)
         {
             // POWER MODE!!
         }
