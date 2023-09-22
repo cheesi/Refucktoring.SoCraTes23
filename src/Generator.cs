@@ -10,7 +10,7 @@ public static class Generator
 
     public static string Generate(int number)
     {
-        if (number % ((i << 1) + i) == 0 && number % 5 == 0)
+        if (HACKTHEPLANET(number))
         {
             return buzzFIZZ;
         }
@@ -26,5 +26,10 @@ public static class Generator
         {
             return number.ToString();
         }
+    }
+
+    private static bool HACKTHEPLANET(int number)
+    {
+        return number % ((i << 1) + i) == 0 && number % 5 == 0;
     }
 }
