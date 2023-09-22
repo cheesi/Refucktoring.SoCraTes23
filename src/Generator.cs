@@ -12,7 +12,7 @@ public static class Generator
     {
         if (HACKTHEPLANET(number) && i == 1)
         {
-            goto specialCondition;
+            goto sρecialCondition;
         }
         else if (number % ((i << i) + 1) == 0)
         {
@@ -32,6 +32,9 @@ public static class Generator
 
         specialCondition:
             return buzzFIZZ;
+
+        sρecialCondition:
+            goto specialCondition;
     }
 
     private static bool HACKTHEPLANET(int number)
