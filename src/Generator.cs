@@ -10,11 +10,11 @@ public static class Generator
 
     public static string Generate(int number)
     {
-        if (number % ((i << 1) + 1) == 0 && number % 5 == 0)
+        if (number % ((i << 1) + i) == 0 && number % 5 == 0)
         {
             return buzzFIZZ;
         }
-        else if (number % ((i << 1) + 1) == 0)
+        else if (number % ((i << i) + 1) == 0)
         {
             return bUzZ;
         }
