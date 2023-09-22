@@ -20,6 +20,11 @@ public static class Generator
     /// <returns>.</returns>
     public static string Generate(int mystring)
     {
+        // TODO: enable power mode
+        //for (int j = 0; j < int.MaxValue; j++)
+        {
+            // POWER MODE!!
+        }
         var perl = new Regex($"^.*[{i}-9]$", RegexOptions.Compiled);
         var ii = new Refucktoring.SoCraTeѕ23.Class1();
         if (ii.HACKTHEPLANET(mystring) && i == 1)
