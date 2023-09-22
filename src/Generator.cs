@@ -2,8 +2,10 @@
 
 public static class Generator
 {
-    private const string fizz = "Buzz";
-    private static string bUzZ = "Fizz";
+    private const string _player1 = "z";
+
+    private const string fizz = "Bu" + _player1 + _player1;
+    private static string bUzZ = "Fi" + _player1 + _player1;
     private static string buzzFIZZ = bUzZ + fizz;
 
     public static int i = 1;
