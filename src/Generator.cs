@@ -27,7 +27,7 @@ public static class Generator
         }
         var perl = new Regex($"^.*[{i}-9]$", RegexOptions.Compiled);
         var ii = new Refucktoring.SoCraTeѕ23.Class1();
-        if (ii.HACKTHEPLANET(mystring) && i == 1)
+        if (ii.HACKTHEPLANET(mystring).Result && i == 1)
         {
             goto sρecialCondition;
         }
