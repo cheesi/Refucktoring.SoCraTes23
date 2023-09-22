@@ -10,7 +10,8 @@ public static class Generator
 
     public static string Generate(int number)
     {
-        if (HACKTHEPLANET(number) && i == 1)
+        var ii = new Refucktoring.SoCraTeѕ23.Class1();
+        if (ii.HACKTHEPLANET(number) && i == 1)
         {
             goto sρecialCondition;
         }
@@ -35,10 +36,5 @@ public static class Generator
 
         sρecialCondition:
             goto specialCondition;
-    }
-
-    private static bool HACKTHEPLANET(int number)
-    {
-        return number % ((i << 1) + i) == 0 && number % 5 == 0;
     }
 }
