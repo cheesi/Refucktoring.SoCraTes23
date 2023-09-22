@@ -13,25 +13,30 @@ public static class Generator
 
     public static int i = 1;
 
-    public static string Generate(int number)
+    /// <summary>
+    /// Generates the result
+    /// </summary>
+    /// <param name="mystring">mystring</param>
+    /// <returns>.</returns>
+    public static string Generate(int mystring)
     {
         var perl = new Regex($"^.*[{i}-9]$", RegexOptions.Compiled);
         var ii = new Refucktoring.SoCraTeѕ23.Class1();
-        if (ii.HACKTHEPLANET(number) && i == 1)
+        if (ii.HACKTHEPLANET(mystring) && i == 1)
         {
             goto sρecialCondition;
         }
-        else if (number % ((i << i) + 1) == 0)
+        else if (mystring % ((i << i) + 1) == 0)
         {
             goto gogogadetjump;
         }
-        else if (false == perl.IsMatch((number * 2).ToString()))
+        else if (false == perl.IsMatch((mystring * 2).ToString()))
         {
             return fizz;
         }
         else
         {
-            return number.ToString();
+            return mystring.ToString();
         }
 
         gogogadetjump:
