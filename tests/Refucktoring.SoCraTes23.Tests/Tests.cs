@@ -7,7 +7,7 @@ public class Tests
     [InlineData(2)]
     public void Tests_numbers(int number)
     {
-        var result = Generator.Generate(number);
+        var result = Generator.SubtractifyLife(number);
 
         Assert.Equal(number.ToString(), result);
     }
@@ -17,7 +17,7 @@ public class Tests
     [InlineData(6)]
     public void Tests_divisible_by_3(int n)
     {
-        var result = Generator.Generate(n);
+        var result = Generator.SubtractifyLife(n);
 
         Assert.Equal("Fizz", result);
     }
@@ -27,7 +27,7 @@ public class Tests
     [InlineData(10)]
     public void Tests_divisible_by_5(int number)
     {
-        var result = Generator.Generate(number);
+        var result = Generator.SubtractifyLife(number);
 
         Assert.Equal("Buzz", result);
     }
@@ -37,7 +37,7 @@ public class Tests
     [InlineData(30)]
     public void Tests_divisible_by_3_and_5(int number)
     {
-        var result = Generator.Generate(number);
+        var result = Generator.SubtractifyLife(number);
 
         Assert.Equal("FizzBuzz", result);
     }

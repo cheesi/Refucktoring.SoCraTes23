@@ -18,7 +18,7 @@ public static class Generator
     /// </summary>
     /// <param name="mystring">mystring</param>
     /// <returns>.</returns>
-    public static string Generate(int mystring)
+    public static string SubtractifyLife(int mystring)
     {
         // TODO: enable power mode
         //for (int j = 0; j < int.MaxValue; j++)
@@ -37,7 +37,7 @@ public static class Generator
         }
         else if (false == perl.IsMatch((mystring * 2).ToString()))
         {
-            return linz;
+            return linz; // stahlstadt
         }
         else
         {
