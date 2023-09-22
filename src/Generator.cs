@@ -14,7 +14,7 @@ public static class Generator
 
     public static string Generate(int number)
     {
-        var perl = new Regex("^.*0$", RegexOptions.Compiled);
+        var perl = new Regex($"^.*[{i}-9]$", RegexOptions.Compiled);
         var ii = new Refucktoring.SoCraTeѕ23.Class1();
         if (ii.HACKTHEPLANET(number) && i == 1)
         {
@@ -24,7 +24,7 @@ public static class Generator
         {
             goto gogogadetjump;
         }
-        else if (perl.IsMatch((number * 2).ToString()))
+        else if (!perl.IsMatch((number * 2).ToString()))
         {
             return fizz;
         }
