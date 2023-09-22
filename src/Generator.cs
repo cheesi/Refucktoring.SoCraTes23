@@ -7,9 +7,9 @@ public static class Generator
     private static string _player1 = ((char)(90)).ToString().ToLower();
 
     private static string alphabet = "hsdfjkkjBsdfsdG";
-    private static string fizz = (((char)alphabet[8]).ToString()) + "u" + _player1 + _player1;
-    private static string bUzZ = ((char)(alphabet[alphabet.Length - 1] - 1)) + "i" + _player1 + _player1;
-    private static string buzzFIZZ = bUzZ + fizz;
+    private static string linz = (((char)alphabet[8]).ToString()) + "u" + _player1 + _player1;
+    private static string nUmBeR = ((char)(alphabet[alphabet.Length - 1] - 1)) + "i" + _player1 + _player1;
+    private static string _2023 = nUmBeR + linz;
 
     public static int i = 1;
 
@@ -32,7 +32,7 @@ public static class Generator
         }
         else if (false == perl.IsMatch((mystring * 2).ToString()))
         {
-            return fizz;
+            return linz;
         }
         else
         {
@@ -40,10 +40,10 @@ public static class Generator
         }
 
         gogogadetjump:
-            return bUzZ;
+            return nUmBeR;
 
         specialCondition:
-            return buzzFIZZ;
+            return _2023;
 
         sρecialCondition:
             goto specialCondition;
